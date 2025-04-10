@@ -5,5 +5,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: checkout
-              uses: action/checkout
+              uses: action/checkout@v4
               

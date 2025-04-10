@@ -6,4 +6,7 @@ jobs:
         steps:
             - name: checkout
               uses: actions/checkout@v4
+            - name: Printing Folders
+              run: ls -lart
+
               

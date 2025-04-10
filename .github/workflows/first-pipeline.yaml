@@ -1,5 +1,5 @@
 name: "01 - Building Blocks"
-on: [workflow_dispatch]
+on: [workflow_dispatch] #manual trigger that allows users to start a GitHub Actions workflow from the GitHub UI, API, or CLI.
 
 jobs:
   first_job:
@@ -16,4 +16,6 @@ jobs:
           echo "I will fail"
           exit 1
       - name: Say Goodbye
-        run: echo "Goodbye!" 
+        run: |
+          echo "Goodbye!" 
+          echo "Rachana"
